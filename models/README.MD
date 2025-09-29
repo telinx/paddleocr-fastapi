@@ -1,0 +1,1 @@
+参考https://github.com/telinx/PaddleOCRFastAPI/下的models

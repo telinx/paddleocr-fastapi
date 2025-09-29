@@ -1,0 +1,6 @@
+paddlex==3.1.0
+fastapi
+starlette==0.46.2
+python-multipart
+uvicorn[standard]
+paddleocr==3.0.3
