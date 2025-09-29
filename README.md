@@ -3,6 +3,7 @@
 ```
 sudo docker build -t  paddleocr-fastapi:3.0.3 .
 
+#未安装libgl1-mesa-glx等需要映射，或者拷贝进容器
 docker run --gpus all  -v /usr/lib/x86_64-linux-gnu/:/usr/lib/x86_64-linux-gnu/  -p 8100:8000 paddleocr-fastapi:3.0.3 
 
 docker run --gpus all  -p 8100:8000 paddleocr-fastapi:3.0.3 
